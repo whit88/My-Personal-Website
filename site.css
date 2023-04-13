@@ -49,3 +49,13 @@ header::after {
 nav {
   display: block;
 }
+
+.links a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: .25em;
+}
+
+.links a: first-of-type {
+  margin-left: 0;
+}
