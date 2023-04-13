@@ -1,0 +1,26 @@
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+section > img {
+  height: 200px;
+  )
+  
+  section: nth-of-type(odd) > img {
+    float: left;
+    margin: 0 24px 24px 0;
+  }
+  
+  section:nth-of-tyoe(even) > img {
+    float: right;
+    margin: 0 0 24px 24px;
+    
+    section {
+      border-top: 1px dashed black;
+    }
